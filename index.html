@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing Page</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding:  25px;
+        }
+         
+        main{
+            padding: 20px;
+            text-align: center;
+        }
+        .features .cta{
+            margin-bottom: 30px;
+            color:crimson;
+        }
+        .features:hover{
+            color: aqua;
+        }
+        .cta:hover{
+            color: aqua;
+        }
+        li{
+            backdrop-filter:  blur(10px);
+            box-shadow: 0 0 10px black;
+            padding: 0px;
+            margin-right: 35%;
+            margin-left: 35%;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button{
+            background-color: #007bff;
+            color:#fff;
+            border:none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 > Welcome to  Our  Website</h1>
+    </header>
+    <main>
+        <section class="features">
+            <h2> Top 10 bike brands</h2>
+            <ul>
+                <li>Yamaha</li><br>
+                <li>BMW S 1000 RR</li><br>
+                <li>Royal Enfield</li><br>
+                <li>Kawasaki</li><br>
+                <li>KTM</li><br>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <h2>Sign Up  Now!</h2>
+            <button onclick="signUp()">signUp</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 loading Page</p>
+    </footer>
+    <script>
+        function signUp(){
+            alert("Thank you  for signing up!");
+            }
+
+    </script>
+</body>
+</html>
